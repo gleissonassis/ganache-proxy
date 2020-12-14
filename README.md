@@ -23,7 +23,7 @@ onProxyReq: async (proxyReq, req, res) => {
 }
 ```
 
-If you do not write again the body the request will not be proxied correctly so pay attention on this lines!
+If you do not write again the body the request will not be proxied correctly so pay attention on these lines!
 
 ```javascript
 let bodyData = JSON.stringify(req.body);
